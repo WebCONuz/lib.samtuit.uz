@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kitoblar Bo'limi</title>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicon/site.webmanifest">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/book.css">
+</head>
+
+<body>
+
+    <!-- REGISTER SECTION  -->
+    <section id="addbook">
+        <div class="cover">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-12 text-center title-text">
+                        <h2 class="text-capitalize title-h2">Yangi kitob kiritish</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <form action="/books/add" method="POST" enctype="multipart/form-data">
+                        <div class="col-md-6 offset-md-3">
+                            <div class="form-area d-flex flex-column">
+                                <label for="title" class="mb-2 fw-bold text-primary">Kitob Nomi</label>
+                                <input type="text" id="title" placeholder="Kitob nomi" class="mb-4 form-control"
+                                    name="title">
+                                <label for="category" class="mb-2 fw-bold text-primary">Kitob Kategoriyasi</label>
+                                <select class="mb-4 form-select" name="type" id="category" name="category">
+                                    <option value="offline">Dasturlash</option>
+                                    <option value="online">Ijtimoiy-gumanitar</option>
+                                    <option value="online">Tabiiy</option>
+                                    <option value="online">Badiiy</option>
+                                    <option value="online">Ilmiy maqolalar</option>
+                                    <option value="online">Darslik</option>
+                                    <option value="online">AKT</option>
+                                </select>
+                                <label for="bookImg" class="mb-2 fw-bold text-primary">Kitob Rasmi</label>
+                                <input type="file" id="bookImg" class="mb-4 form-control" name="bookImg">
+                                <label for="bookFile" class="mb-2 fw-bold text-primary">Kurs Fayli</label>
+                                <input type="file" id="bookFile" class="mb-4 form-control" name="bookFile">
+                                <button type="submit" class="">Kitobni qo'shish</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>

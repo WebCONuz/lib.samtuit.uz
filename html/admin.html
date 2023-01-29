@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kitoblar Bo'limi</title>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicon/site.webmanifest">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/book.css">
+</head>
+
+<body>
+
+    <!-- REGISTER SECTION  -->
+    <section id="admin">
+        <div class="container-fluid">
+            <div class="row" style="min-height: 100vh;">
+                <div class="col-lg-4" style="border-right: 1px solid rgba(0,0,0,0.3);">
+                    <h4 class="my-3 text-primary">Parametrlar</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action py-3" aria-current="true">
+                            The current link item
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A second link item</a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A third link item</a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A fourth link item</a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A disabled link item</a>
+                    </div>
+                    <h4 class="my-3 text-primary">Bo'limlar</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action py-3" aria-current="true">
+                            The current link item
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A second link item</a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A third link item</a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A fourth link item</a>
+                        <a href="#" class="list-group-item list-group-item-action py-3">A disabled link item</a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6" style="min-height: 50vh; border: 1px solid rgba(0,0,0,0.3)">
+                            <!-- MAIN SECTION -->
+                            <div id="chart-main" class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <p class="h1 text-center py-3 mb-0 fs-4">Oxirigi 30 kunlik statistika</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="chart-box pb-5" style="height: 200px;">
+                                            <canvas id="canvas" class="h-100 w-100"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" style="min-height: 50vh; border: 1px solid rgba(0,0,0,0.3)">
+                            <h1>1</h1>
+                        </div>
+                        <div class="col-lg-6" style="min-height: 50vh; border: 1px solid rgba(0,0,0,0.3)">
+                            <h1>1</h1>
+                        </div>
+                        <div class="col-lg-6" style="min-height: 50vh; border: 1px solid rgba(0,0,0,0.3)">
+                            <h1>1</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS FILES -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- counter -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+    <!-- yandex metrika -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(86264611, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/monitoring.js"></script>
+</body>
+
+</html>

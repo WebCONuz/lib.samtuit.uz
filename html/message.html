@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Message Bo'limi</title>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="../images/favicon/site.webmanifest">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- fontawesome.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/message.css">
+</head>
+<body>
+
+<!-- TOP BUTTON -->
+<a href="#main" class="top-button d-flex align-items-center justify-content-center">
+    <i class="fas fa-angle-double-up"></i>
+</a>
+
+<!-- NAVBAR SECTION -->
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+               <a href="../index.html">
+                    <div class="logo d-flex align-items-center">
+                        <img src="../images/header/Logo.png" alt="">
+                        <p class="text-uppercase mb-0 ms-3">MUHAMMAD AL-XORAZMIY NOMIDAGI TOSHKENT AXBOROT TEXNOLOGIYALARI UNIVERSITETI SAMARQAND
+                                FILIALI AXBOROT RESURS MARKAZI</p>
+                    </div>
+               </a>
+                <ul class="links">
+                    <li><a href="../index.html#header">Bosh sahifa</a></li>
+                    <li><a href="http://samtuit.uz/uz/post-news">Yangiliklar</a></li>
+                    <li><a href="./book.html" class="">Kitoblar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+<!-- MAIN SECTION -->
+    <!-- <section id="main" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="h2 text-center">Kelgan xabarlar</p>
+                </div>
+                <div class="col-lg-12 text-center mb-4">
+                     <ul class="pagination justify-content-center mt-4">
+                        <li class="page-item active">
+                            <a class="page-link " href="#" name="all">All</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" name="read">Read</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" name="unread">Unread</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+
+                    <div class="user p-3 mb-3">
+                        <div class="content d-flex justify-content-between align-items-center mb-3">
+                            <div class="user-logo d-flex align-items-center">
+                                <div class="logo me-3 d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <p class="h5 mb-0 user-name">
+                                    Olloyor Xudoyorov <br> 
+                                    <span>22.11.2021</span>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <button class="message-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Javob</button>
+                            </div>
+                        </div>
+                        <div class="message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing 
+                            elit. Vero et porro ex quibusdam, doloribus corporis 
+                            corrupti accusantium quia, quis dolor impedit officiis
+                            voluptates sint omnis.
+                        </div>
+                    </div>
+
+                    <div class="user p-3 mb-3">
+                        <div class="content d-flex justify-content-between align-items-center mb-3">
+                            <div class="user-logo d-flex align-items-center">
+                                <div class="logo me-3 d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <p class="h5 mb-0 user-name">
+                                    Qodir Tugalov <br> 
+                                    <span>3.11.2021</span>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <button class="message-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Javob</button>
+                            </div>
+                        </div>
+                        <div class="message">
+                            doloribus corporis corrupti accusantium quia, quis dolor
+                            impedit officiis voluptates sint omnis.
+                        </div>
+                    </div>
+
+                    <div class="user p-3 mb-3">
+                        <div class="content d-flex justify-content-between align-items-center mb-3">
+                            <div class="user-logo d-flex align-items-center">
+                                <div class="logo me-3 d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <p class="h5 mb-0 user-name">
+                                    G'ani Ashraf <br> 
+                                    <span>15.10.2021</span>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <button class="message-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Javob</button>
+                            </div>
+                        </div>
+                        <div class="message">
+                            Vero et porro ex quibusdam, doloribus corporis 
+                            corrupti accusantium quia, quis dolor impedit officiis
+                            voluptates sint omnis.
+                        </div>
+                    </div>
+
+                    <div class="user p-3 mb-3">
+                        <div class="content d-flex justify-content-between align-items-center mb-3">
+                            <div class="user-logo d-flex align-items-center">
+                                <div class="logo me-3 d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <p class="h5 mb-0 user-name">
+                                    Karim Tangirov <br> 
+                                    <span>9.10.2021</span>
+                                </p>
+                            </div>
+                            <div class="button">
+                                <button class="message-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Javob</button>
+                            </div>
+                        </div>
+                        <div class="message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div style="padding-top: 150px;" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Javob xati:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <textarea class="w-100 p-3" name="" id="message" rows="5"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <div class="form-check me-sm-5">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Javobni ekranga chiqarish
+                        </label>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- sending message in this -->
+  <div id="main" class="container py-5">
+    <div class="row align-items-center">
+      <div class="home-content">
+        <nav aria-label="Page navigation example" class="mt-4">
+          <h1>Foydalanuvchilar tomonidan kelib tushgan savollar</h1>
+          <ul class="pagination justify-content-center mt-4">
+            <li class="page-item active">
+              <a class="page-link " href="#" name="all">All</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" name="read">Read</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" name="unread">Unread</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- <?php 
+    //   if(isset($_POST['submit'])) {
+    //     foreach( $chats as $chat) {
+    // ?> -->
+    <div class="card text-center">
+      <div class="card-header">
+        <p>
+          <i class="fas fa-user-graduate"></i> <b>User name : </b> Doniyor Kamolov
+        </p>
+        <p class="card-text"><b>Savol kelgan vaqt :</b>  05-11-2021 15:23:56</p>
+        <p class="card-text"><b>Foydalanuvchi raqami :</b> +998901594198</p>
+        <p class="card-text"><b>Email :</b> ddoniyorxon@gmail.com</p>
+      </div>
+      <div class="card-body">
+        
+        <p class="card-text"><b>Savolning mazmuni :</b> Hi! Admin, I'm not found book in your web site. Please help me.Can you found book me . Book name "Programming"</p>
+      </div>
+      <div class="card-footer text-muted">
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Javob yozish</a>
+      </div>
+    </div>
+    <!-- <?php  ?> -->
+  </div>
+  <!-- the end sending message -->
+
+  <!-- Modal -->
+    <div style="padding-top: 150px;" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Javob xati:</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <textarea class="w-100 p-3" name="" id="message" rows="5"></textarea>
+            </div>
+            <div class="modal-footer">
+                <div class="form-check me-sm-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Javobni ekranga chiqarish
+                    </label>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+<!-- FOOTER SECTION -->
+    <footer id="footer">
+        <div class="container py-3 py-lg-5">
+            <div class="row py-3 py-lg-4">
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>TATUSF.uz library</h3>
+                    <p>Samarqand shaxar <br> Ibn Sino ko'chasi 2A uy</p>
+                    <p class="mb-0"><b>Telefon:</b> +99 866 232 2559</p>
+                    <p><b>Email:</b> librarysamtuit@gmail.com</p>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>ARM haqida</h3>
+                    <ul>
+                        <li>
+                            <a href="http://samtuit.uz/uz/page/leadership-11-08-2021" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                raxbariyat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://samtuit.uz/uz/page/arm-30-09-2021" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                ARM tuzilishi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://samtuit.uz/uz/page/university-regulations-11-08-2021" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                Universitet nizomi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://vacancy.argos.uz/vacancies/vacancy-list" class="text-capitalize">
+                                <i class="fas fa-angle-right"></i>
+                                bo'sh ish o'rinlari
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>Me'yoriy-huquqiy hujjatlar</h3>
+                    <ul>
+                        <li>
+                            <a href="https://lex.uz/search/all?form_id=3968">
+                                <i class="fas fa-angle-right"></i>
+                                O'zbekiston Respublikasi qonunlari
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://lex.uz/uz/search/all?form_id=3972&fbody_id=19123">
+                                <i class="fas fa-angle-right"></i>
+                                O'zbekisron Respublikasi prizidentining qarorlari
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://e-qaror.gov.uz/oz/site/list?DocumentSearch%5Bcategory_id%5D=6">
+                                <i class="fas fa-angle-right"></i>
+                                OTM tomonidan qabul qilingan normativ-huquqiy hujjatlar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h3>Ijtimoiy tarmoqlarda</h3>
+                    <p>Bizni ijtimoiy tarmoqlar orqali ham kuzatib boring:</p>
+                    <div class="foot-icons d-flex">
+                        <div class="icon">
+                            <a href="https://t.me/library_sbtuit"><i class="fab fa-telegram"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://fb.com/sbtuitdirector"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://instagram.com/sbtuitdirector"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.youtube.com/channel/UC3qC0MK0LZekkRvJd8TflxQ/videos"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="author text-center w-100 py-3 py-lg-4 mb-0">
+            <a href="#">&copy; Copyright
+                <script>document.write(new Date().getFullYear());</script>, Toshtemirov M, Kamolov D
+            </a>
+        </p>
+    </footer>
+
+<!-- js files -->
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+</script>
+<script src="../js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="../js/index.js"></script>
+<script src="../js/chat.js"></script>
+</body>
+</html>

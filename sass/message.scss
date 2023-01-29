@@ -1,0 +1,54 @@
+$main-color: #16A085;
+$black-color: #000000;
+$white-color: #ffffff;
+
+#main{
+    .pagination{
+        .page-item{
+            .page-link{
+                color: $main-color;
+            }
+         }
+        .page-item.active{
+           .page-link{
+                background-color: $main-color !important;
+                border-color: $main-color;
+                color:$white-color;
+           }
+        }
+    }
+    .user{
+        background-color: rgba($color: $main-color, $alpha: 0.2);
+        border-radius: 4px;
+        .content {
+            .user-logo{
+                .logo{
+                    width: 40px;
+                    height: 40px;
+                    background-color: rgba($color: $black-color, $alpha: 0.2);
+                    border-radius: 50%;
+                    color: $black-color;
+                    font-size: 1.2rem;
+                }
+                .user-name{
+                    span{
+                        font-size: 0.9rem;
+                        color:rgba($color: $black-color, $alpha: 0.6);
+                    }
+                }
+            }
+        }
+        .button{
+            .message-btn{
+                padding: 5px 10px;
+                border-radius: 4px;
+                border: none;
+                background-color: $main-color;
+                color: $white-color;
+                &:active{
+                    box-shadow: 0 0 10px rgba($color: $main-color, $alpha: 0.7);
+                }
+            }
+        }
+    }
+}
